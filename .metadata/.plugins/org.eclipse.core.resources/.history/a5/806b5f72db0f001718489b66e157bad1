@@ -1,0 +1,15 @@
+package crudpackage;
+
+import com.mongodb.MongoClient;
+
+
+
+public class AppMain {
+
+	public static void main(String[] args) {
+
+		MongoClient mongoClient = new MongoClient( "localhost" , 27017 );
+		
+	}
+
+}
